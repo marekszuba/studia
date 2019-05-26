@@ -7,7 +7,7 @@ const unsigned num_threads = 2;
 double step;
 int main()
 {
-	int i, nthreads; double pi ,sum[ num_threads ];
+	int i, nthreads; double pi ,sum[ num_threads ]; // blablabla sadas
 	step = 1.0 / (double)num_steps;
 	omp_set_num_threads(num_threads);
 	#pragma omp parallel
